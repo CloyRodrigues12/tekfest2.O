@@ -1,0 +1,122 @@
+
+  .center {
+    margin: auto;
+  }
+  
+  .cardg {
+    position: relative;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    min-height: 30rem;
+    margin: 3rem;
+    background-color:rgba(216, 198, 198, 0.137);
+    backdrop-filter: blur( .25rem );
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  .sub-header{
+    margin: auto;
+    margin-top: 10rem;
+    width: 100vw;
+    position: relative;
+    font-weight: 800;
+    font-size: 6rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  .sub-header hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid rgb(0, 238, 255);
+    width: 95%;
+  }
+  .cardg img {
+    width: 60%;
+    height: auto;
+    border: solid 8px #eaeaea;
+    background: white;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  .cardg h1 {
+      font-size: 2rem;
+    margin: 0.6rem 0 0 0;
+    text-align: center;
+ 
+  }
+  .cardg h2 {
+    margin-top: 0;
+    text-align: center;
+    
+    font-weight: 300;
+  }
+  .whatsapp{
+      width: 20rem;
+      height: auto;
+      border-radius: 1rem;
+      text-align: center;
+      background-color: #25d366;
+  }
+
+
+  .linkedinx{
+    width: 20rem;
+    height: auto;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: #003bdd;
+}
+.linkedinx:hover{
+  background-color: rgb(53, 53, 53);
+}
+  .social-container {
+    display: flex;
+    justify-content: center;
+  }
+  .social-container a {
+    border-radius: 50%;
+    font-size: 3rem;
+    padding: 1rem;
+    color: rgb(214, 214, 214);
+    transition: 0.2s;
+  }
+
+  
+  .social-container a:hover {
+    color: #000;
+  }
+  .social-container a.twitter:hover {
+    color: #1da1f2;
+  }
+  .social-container a.linkedin:hover {
+    color: #0e76a8;
+  }
+  .whatsapp:hover {
+    color: #25d366;
+    background-color: black;
+    transition: 0.2s;
+  }
+
+  @media (max-width: 900px) {
+
+    .cardg{
+      width: 28rem;
+    margin-left: 50px;
+    }
+    .sub-header{
+      width: 100vw;
+      font-size: 3rem;
+    }
+    .cardg h1 {
+      font-size: 2rem;
+    }
+    .cardg h2 {
+      font-size: 1.4rem; 
+    }
+
+  }
